@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "dependencies": {
     "ansi-regex": "^6.0.1",
     "ansi-styles": "^6.2.1",
@@ -108,7 +109,6 @@
     "ts-interface-checker": "^0.1.13",
     "update-browserslist-db": "^1.0.13",
     "util-deprecate": "^1.0.2",
-    "vite": "^5.2.8",
     "which": "^2.0.2",
     "wrap-ansi": "^8.1.0",
     "wrap-ansi-cjs": "^7.0.0",
@@ -119,9 +119,11 @@
     "@types/node": "^22.7.4",
     "nyc": "^17.1.0",
     "playwright-test-coverage": "^1.2.12",
+    "vite": "^5.4.8",
     "vite-plugin-istanbul": "^6.0.2"
   },
   "scripts": {
+    "dev": "vite",
     "test": "playwright test",
     "test:coverage": "nyc --reporter=json-summary --reporter=text playwright test"
   },
