@@ -42,8 +42,8 @@ jobs:
       id-token: write
     runs-on: ubuntu-latest
     environment:
-      name: production
-      url: https://pizza.ldach.click
+      name: staging
+      url: https://stage-pizza.ldach.click
     env:
       version: ${{needs.build.outputs.version}}
     steps:
