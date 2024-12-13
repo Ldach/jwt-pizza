@@ -14,6 +14,16 @@ Conducted a Penetration Test on https://pizza.ldach.click/ and https://pizza.byu
 | Corrections    | Create a new non-default admin account                                                        |
 
 
+| Item           | Result                                                                         |
+| -------------- | ------------------------------------------------------------------------------ |
+| Date           | December 11th, 2024                                                                 |
+| Target         | pizza.byucsstudent.click                                                       |
+| Classification | Injection                                                                 |
+| Severity       |  3                                                                            |
+| Description    | A new, non admin user was able to create a franchise            |
+| Images         | ![OWASP 3 Injection Non authorized account allowed to make franchise](https://github.com/user-attachments/assets/c235060a-9bf8-428a-9d4b-2d7b92ee6576)
+
+| Corrections    | Sanitize user inputs                                               |
 
 # PEER ATTACK
 
